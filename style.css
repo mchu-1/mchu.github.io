@@ -1,114 +1,35 @@
-/* Global Styles */
+/* Simple styles for Mathew Chu's website */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #f9f9f9;
-}
-
-.container {
-    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-}
-
-/* Typography */
-h1, h2 {
-    color: #2c3e50;
-    margin-top: 1.5em;
+    max-width: 800px;
+    color: #333;
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.2em;
-}
-
-h2 {
-    font-size: 1.8rem;
-    border-bottom: 1px solid #eaecef;
-    padding-bottom: 0.3em;
+    color: #000;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
 }
 
 p {
-    margin-bottom: 1.2em;
+    margin-bottom: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
 
 a {
-    color: #3498db;
+    color: #0366d6;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-/* Header */
-header {
-    margin-bottom: 2em;
-    text-align: center;
-}
-
-.subtitle {
-    color: #7f8c8d;
-    font-size: 1.2rem;
-    margin-top: 0;
-}
-
-/* Sections */
-section {
-    margin-bottom: 2em;
-}
-
-ul {
-    padding-left: 1.5em;
-}
-
-li {
-    margin-bottom: 0.5em;
-}
-
-/* Image Section */
-.image-section {
-    text-align: center;
-    margin: 2em 0;
-}
-
-.main-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.caption {
-    font-style: italic;
-    color: #7f8c8d;
-    margin-top: 0.8em;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 1.5em 0;
-    margin-top: 3em;
-    color: #7f8c8d;
-    font-size: 0.9rem;
-    border-top: 1px solid #eaecef;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .container {
-        padding: 15px;
-    }
-    
-    h1 {
-        font-size: 2rem;
-    }
-    
-    h2 {
-        font-size: 1.5rem;
-    }
 } 
