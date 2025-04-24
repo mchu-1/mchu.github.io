@@ -32,4 +32,29 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Home button styles */
+.home-button {
+    display: inline-block;
+    margin: 2rem 0;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.home-button:hover {
+    background-color: #f6f8fa;
+}
+
+@media (max-width: 600px) {
+    .home-button {
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
 } 
