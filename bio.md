@@ -1,14 +1,14 @@
 # Who am I?
-My name is Mathew, I am a genetic engineer and doctor based in Sydney, Australia.
+My name is Mathew, I am a genetic engineer and ex-doctor based in Sydney, Australia.
 
 # What do I believe in?
 Genetically upgraded humans.
 
 # What am I working on?
-A biometrically secure wallet for all your health data.
+A secure wallet for all your health data.
 
 # What have I worked on before?
-Biological computers - devices that read/write analog data into the human genome.
+Biological computers - devices that read/write data into the human genome.
 
 - 2024 - 2025 (New York City, United States)
 - 2021 - 2024 (Melbourne, Australia)
