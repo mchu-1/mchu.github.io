@@ -20,6 +20,8 @@ body {
     max-width: 680px;
     margin: 0 auto;
     padding: 80px 24px 120px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .section {
