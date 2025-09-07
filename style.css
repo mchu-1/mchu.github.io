@@ -99,18 +99,14 @@ p:hover {
 }
 
 .intro::before {
-    content: "👋";
+    content: "";
     position: absolute;
     left: 0;
-    top: 2px;
-    font-size: 20px;
-    animation: wave 2s ease-in-out infinite;
-}
-
-@keyframes wave {
-    0%, 100% { transform: rotate(0deg); }
-    25% { transform: rotate(20deg); }
-    75% { transform: rotate(-10deg); }
+    top: 8px;
+    width: 4px;
+    height: 32px;
+    background: linear-gradient(180deg, #4299e1, #63b3ed);
+    border-radius: 2px;
 }
 
 blockquote {
@@ -133,12 +129,14 @@ blockquote:hover {
 }
 
 blockquote::before {
-    content: '💡';
+    content: '"';
     position: absolute;
-    top: 12px;
-    right: 16px;
-    font-size: 20px;
-    opacity: 0.7;
+    top: 8px;
+    left: 12px;
+    font-size: 48px;
+    color: #cbd5e0;
+    font-family: Georgia, serif;
+    line-height: 1;
 }
 
 .timeline {
@@ -160,8 +158,13 @@ blockquote::before {
 }
 
 .timeline-title::before {
-    content: "📍";
-    font-size: 16px;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #4299e1;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 4px;
 }
 
 ul {
@@ -186,11 +189,12 @@ ul li:hover {
 }
 
 ul li::before {
-    content: "📅";
+    content: "•";
     position: absolute;
-    left: 4px;
+    left: 8px;
     top: 8px;
-    font-size: 14px;
+    color: #4299e1;
+    font-weight: 600;
     transition: transform 0.2s ease;
 }
 
@@ -265,8 +269,11 @@ a:hover {
 }
 
 .email-link::before {
-    content: "✉️";
-    font-size: 16px;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>') no-repeat center;
+    background-size: contain;
 }
 
 .email-link::after {
