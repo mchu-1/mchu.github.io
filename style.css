@@ -47,6 +47,22 @@ body {
     margin: 48px 0;
 }
 
+/* Intro hero with photo left of text */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.intro-photo {
+    width: 180px;
+    height: 240px; /* rectangular crop */
+    object-fit: cover;
+    flex-shrink: 0;
+    margin: 0; /* override global img margins */
+    border: 1px solid #ddd; /* keep consistent border */
+}
+
 h1 {
     font-size: 20px;
     font-weight: 600;
@@ -193,5 +209,16 @@ a:hover {
     
     .caption {
         margin: 0 0 24px 0;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .intro-photo {
+        width: 100%;
+        height: auto;
     }
 } 
