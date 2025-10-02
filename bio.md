@@ -1,5 +1,5 @@
 # Who am I?
-My name is Mathew, I am a genetic engineer and ex-doctor based in Sydney, Australia.
+My name is Mathew, I am a genetic engineer and medical doctor based in Sydney, Australia.
 
 # What do I believe in?
 Genetically upgraded humans.
